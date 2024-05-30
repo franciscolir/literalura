@@ -1,5 +1,6 @@
 package com.aluracursos.literalura;
 
+import com.aluracursos.literalura.principal.Principal;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -10,4 +11,7 @@ public class LiteraluraApplication {
 		SpringApplication.run(LiteraluraApplication.class, args);
 	}
 
-}
+	public void run(String... args) throws Exception {
+		Principal principal = new Principal();
+		principal.opcionesMenu();
+}}
