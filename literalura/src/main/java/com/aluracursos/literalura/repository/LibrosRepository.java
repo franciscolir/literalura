@@ -14,6 +14,10 @@ import java.util.Optional;
 public interface LibrosRepository extends JpaRepository<Libros,Long> {
 
    Libros findByTituloContainsIgnoreCase(String nombreLibro);
+
+   List<Libros> findByIdiomas(String idioma);
+
+
 }
  /*
 
