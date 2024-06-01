@@ -1,9 +1,19 @@
 package com.aluracursos.literalura.repository;
 
 
-public interface SerieRepository extends JpaRepository<Libro,Long> {
+import com.aluracursos.literalura.modelos.Autor;
+import com.aluracursos.literalura.modelos.Libros;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface LibrosRepository extends JpaRepository<Libros,Long> {
+
+}
+ /*
 
     Optional<Libro> findByTituloContainsIgnoreCase(String nombreSerie);
+
     List<Libro> findTop5ByOrderByEvaluacionDesc();
     List<Libro> findByGenero(Categoria categoria);
     //List<Libro> findByTotalTemporadasLessThanAndEvaluacionGreaterThan(Integer totalTemporadas, Double evaluacion);
@@ -20,3 +30,4 @@ public interface SerieRepository extends JpaRepository<Libro,Long> {
     @Query("SELECT e FROM Libro s JOIN s.episodios e WHERE s.id = :id ORDER BY e.evaluacion DESC LIMIT 5 ")
     List<Autor> top5EpisodiosPorSerie(Long id);
 }
+*/
