@@ -2,10 +2,8 @@ package com.aluracursos.literalura.modelos;
 
 import jakarta.persistence.*;
 
-import java.util.Collection;
-import java.util.List;
-import java.util.Optional;
-import java.util.Set;
+import java.util.*;
+import java.util.stream.Collectors;
 
 @Entity
 @Table(name = "autor")
@@ -21,8 +19,8 @@ public class Autor {
     private String fechaNacimiento;
     private String fechaDefuncion;
 
-    @OneToMany(mappedBy = "autor", fetch = FetchType.EAGER)
-    private Set<Libros> libros;
+    @OneToMany(mappedBy = "autor", fetch = FetchType.EAGER,cascade = CascadeType.ALL)
+    private Set<Libros> libros = new HashSet<>();
 
     public Autor() {
     }
@@ -36,11 +34,13 @@ public class Autor {
     @Override
     public String toString() {
         return
-                "~~~~~~~~~~AUTOR~~~~~~~~~~\n"+
-                "Nombre: " + nombre + '\n' +
+                "AUTOR: " + nombre + '\n' +
                 "Fecha de Nacimiento: " + fechaNacimiento + '\n' +
                 "Fecha de Defuncion: " + fechaDefuncion+ '\n' +
-                "~~~~~~~~~~~~~~~~~~~~~~~~~";
+                "Libros: " + (libros != null ?libros.stream()
+                        .map(Libros::getTitulo)
+                        .collect(Collectors.joining(", ")) : "N/A") +'\n' +
+                        '\n';
     }
 
     public Long getId() {
@@ -81,5 +81,8 @@ public class Autor {
 
     public void setLibros(Set<Libros> libros) {
         this.libros = libros;
+        for (Libros libro : libros) {
+            libro.setAutor(this);
+        }
     }
 }
