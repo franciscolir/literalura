@@ -55,7 +55,7 @@ Contiene un manejo de excepciones al realizar la consulta a API y ayuda al usuar
 
    <h4> OPCION 3</h4>
    <p align="left">
-   <img src= https://github.com/franciscolir/literalura/assets/75907947/a9e752cc-a86d-48a4-8fd4-c6affd5dcc03>
+   <img src=https://github.com/franciscolir/literalura/assets/75907947/8be8ff27-ea06-48cb-b25f-9ee4030ecb69>
     </p>
 
   <h4> OPCION 4</h4>
