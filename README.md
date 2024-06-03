@@ -70,11 +70,13 @@ Contiene un manejo de excepciones al realizar la consulta a API y ayuda al usuar
      
   <h3>Opciones no validas y errores<h3/>
      <p align="left">
-   <img src= (https://github.com/franciscolir/literalura/assets/75907947/97d7b826-19e0-4987-b06e-b5d345c0dabf>
+   <img src= https://github.com/franciscolir/literalura/assets/75907947/97d7b826-19e0-4987-b06e-b5d345c0dabf>
      </p>
-     <p align="left">
+    
+  <p align="left">
    <img src= https://github.com/franciscolir/literalura/assets/75907947/90a42c1b-f920-408d-8df0-fc42f4990f12>
-  
+   </p>
+   
   <h3>Salida del programa<h3/> 
      <p align="left">
    <img src= https://github.com/franciscolir/literalura/assets/75907947/505efa40-4aa2-46b3-bd67-09c3d33b114a>
