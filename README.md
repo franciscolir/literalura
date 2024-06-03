@@ -37,42 +37,45 @@ Contiene un manejo de excepciones al realizar la consulta a API y ayuda al usuar
 
 ## Imagenes de Aplicacion
 <h3>Funcionamiento<h3/>
+
+  <h4> MENU INICIO</h4>
   <p align="left">
-    MENU INICIO
    <img src=https://github.com/franciscolir/literalura/assets/75907947/c8b5da89-4823-4c82-ba75-33d535fbbf1f>
    </p>
-  
+
+   <h4> OPCION 1</h4>
   <p align="left">
-    OPCION 1
    <img src= https://github.com/franciscolir/literalura/assets/75907947/52373c83-b452-450a-aecf-cab8f9aec9a8>
    </p>
-   
+
+   <h4> OPCION 2</h4>
    <p align="left">
-     OPCION 2
    <img src= https://github.com/franciscolir/literalura/assets/75907947/77907ac4-136d-475a-951e-c27f98213d3f>
    </p>
-   
+
+   <h4> OPCION 3</h4>
    <p align="left">
-     OPCION 3
-   <img src= https://github.com/franciscolir/literalura/assets/75907947/a9e752cc-a86d-48a4-8fd4-c6affd5dcc03
->
+   <img src= https://github.com/franciscolir/literalura/assets/75907947/a9e752cc-a86d-48a4-8fd4-c6affd5dcc03>
+    </p>
+
+  <h4> OPCION 4</h4>
+  <p align="left">
+  <img src= https://github.com/franciscolir/literalura/assets/75907947/56f2f5f5-3632-4d9b-b57b-63ef95494d38>
      </p>
-     <p align="left">
-       OPCION 4
-   <img src= https://github.com/franciscolir/literalura/assets/75907947/56f2f5f5-3632-4d9b-b57b-63ef95494d38>
-     </p>
-     <p align="left">
-       OPCION 5
+
+  <h4> OPCION 5</h4>
+   <p align="left">
    <img src= https://github.com/franciscolir/literalura/assets/75907947/9b044a4b-26bd-41fb-a2c8-cb2a8194bd7a >
      </p>
-     <h3>Opciones no validas y errores<h3/>
+     
+  <h3>Opciones no validas y errores<h3/>
      <p align="left">
    <img src= (https://github.com/franciscolir/literalura/assets/75907947/97d7b826-19e0-4987-b06e-b5d345c0dabf>
      </p>
      <p align="left">
    <img src= https://github.com/franciscolir/literalura/assets/75907947/90a42c1b-f920-408d-8df0-fc42f4990f12>
   
-      <h3>Salida del programa<h3/> 
+  <h3>Salida del programa<h3/> 
      <p align="left">
    <img src= https://github.com/franciscolir/literalura/assets/75907947/505efa40-4aa2-46b3-bd67-09c3d33b114a>
      </p>
